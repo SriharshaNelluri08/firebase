@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3EFEB"
+    tools:context=".information">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFORMATION"
+        android:textStyle="italic"
+        android:background="#FAF7F7"
+        android:translationX="50sp"
+        android:textColor="#2139F3"
+        android:textSize="48sp"
+        >
+    </TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        android:translationX="50sp"
+        android:translationY="100sp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/idob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:translationX="130sp"
+        android:translationY="220sp" />
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="140sp"
+        android:textSize="24sp"
+        android:translationY="98sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RegNO. :"
+        android:translationX="50sp"
+        android:translationY="160sp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        >
+
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/iregno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:translationX="150sp"
+        android:translationY="155sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB :"
+        android:translationX="50sp"
+        android:translationY="220sp"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:translationX="50sp"
+        android:translationY="160sp"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phoneno :"
+        android:translationX="50sp"
+        android:translationY="280sp"
+        android:textSize="24sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/iphoneno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:translationX="180sp"
+        android:translationY="280sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/iemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:translationX="150sp"
+        android:translationY="340sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL :"
+        android:translationX="50sp"
+        android:translationY="340sp"
+        android:textSize="24sp"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textColor="@color/white"
+        android:background="#673AB7"
+        android:translationY="400sp"
+        android:translationX="180sp"
+        android:textSize="24sp"
+        />
+
+</FrameLayout>

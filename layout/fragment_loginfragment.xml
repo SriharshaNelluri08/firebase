@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F1C3"
+    tools:context=".loginfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/loginf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USER LOGIN"
+        android:textColor="#03A9F4"
+        android:textSize="40sp"
+        android:background="#EDE6E6"
+        android:textStyle="italic"
+        android:translationX="100sp"
+        android:translationY="100sp"/>
+
+    <TextView
+        android:id="@+id/lpusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName :"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:translationY="190sp"
+        android:translationX="50sp"/>
+    <EditText
+        android:id="@+id/loginusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter username"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:translationX="50sp"
+        android:translationY="225sp"/>
+    <TextView
+        android:id="@+id/ppusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password  :"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:translationY="275sp"
+        android:translationX="50sp"/>
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:translationX="50sp"
+        android:translationY="315sp"/>
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:background="#673AB7"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:translationX="200sp"
+        android:translationY="400sp"/>
+</RelativeLayout>
